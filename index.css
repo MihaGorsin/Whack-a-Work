@@ -1,0 +1,101 @@
+@font-face {
+    font-family: pixel;
+    src: url("https://dl.dropboxusercontent.com/s/hsdwvz761xqphhb/pixel.ttf");
+
+  }
+
+#gameCanvas {
+    border: 3px solid rgb(36, 36, 36);
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    font-family: pixel;
+
+}
+
+h1 {
+  font-family: pixel;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  text-shadow: -4px -4px 0 #494949, 4px -4px 0 #494949, -4px 4px 0 #494949, 4px 4px 0 #494949;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.upgradeBtn{
+  width: 250px;
+  
+  
+}
+#imgBtn {
+  width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+#upgradeTask {
+  float: left;
+  margin: 20px 20px 20px 0px;
+}
+
+#upgradeOffice {
+  float: right;
+  margin: 20px 0px 20px 20px;
+}
+
+.upgradeTaskText {
+  position: absolute;
+  margin-top: 52px;
+  margin-left: 32px;
+}
+
+.upgradeTaskTextActive {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 32px;
+}
+
+.upgradeOfficeText {
+  position: absolute;
+  margin-top: 52px;
+  margin-left: 667px;
+}
+
+.upgradeOfficeTextFinal {
+  position: absolute;
+  margin-top: 52px;
+  margin-left: 690px;
+}
+
+.upgradeOfficeTextaActive {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 667px;
+}
+
+.scoreText {
+  font-family: pixel;
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(170, 170, 170);
+  pointer-events: none;
+}
+
+.scoreTextActive {
+  font-family: pixel;
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  pointer-events: none;
+}
