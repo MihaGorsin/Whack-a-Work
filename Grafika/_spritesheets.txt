@@ -1,0 +1,3 @@
+sss.png,200,200,10
+Task-sprite-idle.png,200,200,9
+Task-sprite-Die.png,200,200,6
