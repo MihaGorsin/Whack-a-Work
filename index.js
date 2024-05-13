@@ -19,6 +19,9 @@ const PlayerUpgrades = [
 ]
 
 
+
+
+
 // Creating image of mole
 const moleIMG = new Image();
 let btnUpTask = 0;
@@ -36,6 +39,27 @@ const bgUpgrade = [
     './img/Background-4.jpg',
     './img/Background-5.jpg'
 ]
+
+const btnImages = [
+    './img/btn-Active.png',
+    './img/btn-notActive.png'
+]
+
+
+//Loop img to load
+let images = [
+    ...PlayerUpgrades,
+    ...bgUpgrade,
+    ...btnImages
+]
+
+for (let i = 0; i < images.length; i++){
+    const img = new Image();
+    img.src = images[i];
+}
+
+
+
 
 const bg = new Image();
 let btnUp = 0
