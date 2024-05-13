@@ -142,10 +142,6 @@ function taskUpgrade() {
             upgradeBtnTaskText.classList.remove("scoreTextActive");
             upgradeBtnTaskText.classList.remove("upgradeTaskTextActive");
         }
-        if (btnUpTask >= PlayerUpgrades.length - 1){
-            const upgradeBtnTaskText = document.getElementById('upgradeTaskText');
-            upgradeBtnTaskText.innerText = 'Fully upgraded!'
-        }
     }
     else{
         const upgradeBtnTask = document.getElementById('upgradeTask');
@@ -156,6 +152,9 @@ function taskUpgrade() {
             upgradeBtnTaskText.classList.add("upgradeTaskText");
             upgradeBtnTaskText.classList.remove("scoreTextActive");
             upgradeBtnTaskText.classList.remove("upgradeTaskTextActive");
+
+            
+            upgradeBtnTaskText.innerText = 'Fully upgraded!'
 
     }
 }
@@ -183,12 +182,7 @@ function officeUpgrade() {
             upgradeBtnTaskTextOffice.classList.remove("scoreTextActive");
             upgradeBtnTaskTextOffice.classList.remove("upgradeOfficeTextaActive");
         }
-        if (btnUp >= bgUpgrade.length - 1){
-            const upgradeBtnTaskTextOffice = document.getElementById('upgradeOfficeText');
-            upgradeBtnTaskTextOffice.innerText = 'Fully upgraded!'
-            upgradeBtnTaskTextOffice.classList.add("upgradeOfficeTextFinal");
-            upgradeBtnTaskTextOffice.classList.remove("upgradeOfficeText");
-        }
+        
     }
     else{
         {
@@ -200,6 +194,10 @@ function officeUpgrade() {
             upgradeBtnTaskTextOffice.classList.add("upgradeOfficeText");
             upgradeBtnTaskTextOffice.classList.remove("scoreTextActive");
             upgradeBtnTaskTextOffice.classList.remove("upgradeOfficeTextaActive");
+
+            upgradeBtnTaskTextOffice.innerText = 'Fully upgraded!'
+            upgradeBtnTaskTextOffice.classList.add("upgradeOfficeTextFinal");
+            
         }
     }
 }
